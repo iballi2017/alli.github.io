@@ -34,23 +34,14 @@
 .landing-image{
     width: 62%;
     margin: 0 auto;
-    height: 40%;
-}
-.my-intro{
-    width: 62%;
-    margin: 0 auto;
-    position: absolute;
-    margin-top: -50px;
-    text-align: justify;
-    /* margin-top: 30px; */
-    color:#05154fff;
-    font-size: 20px;
+    margin-top: 30px;
+    height: 80%;
 }
 .alli-intro{
     width: 62%;
     margin: 0 auto;
     text-align: justify;
-    margin-top: 30px;
+    margin-top: -30px;
     color:#05154fff;
     font-size: 20px;
 }
@@ -59,7 +50,7 @@
 }
 footer{
     background: #000;
-    margin-top: 300px;
+    margin-top: 200px;
     color: #fff;
 }
 @media only screen and(min-width: 1024px){
