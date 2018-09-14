@@ -36,6 +36,7 @@
 footer{
     background: #000;
     margin-top: 160px;
+    color: #fff;
 }
 @media only screen and(min-width: 1024px){
     .alli-intro{
