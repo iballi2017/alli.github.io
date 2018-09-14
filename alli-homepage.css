@@ -53,6 +53,22 @@ footer{
     margin-top: 200px;
     color: #fff;
 }
+
+@media only screen and (min-width: 320px){
+    body{
+        background-color: red;
+    }
+    .alli-intro{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 20px;
+        
+    }
+}
+
+
 @media only screen and(min-width: 1024px){
     .alli-intro{
         text-align: justify;
