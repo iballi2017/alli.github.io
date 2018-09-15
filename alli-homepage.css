@@ -41,7 +41,7 @@
     width: 62%;
     margin: 0 auto;
     text-align: justify;
-    margin-top: -30px;
+    margin-top: 0px;
     color:#05154fff;
     font-size: 20px;
 }
@@ -53,8 +53,34 @@ footer{
     margin-top: 200px;
     color: #fff;
 }
+@media only screen and (min-width: 768px){
+    .alli-intro{
+        text-align: justify;
+        margin-top: -20px;
+        color:#05154fff;
+        font-size: 15px;
+    }
+}
 
 @media only screen and (min-width: 320px){
+    .alli-intro{
+        text-align: justify;
+        margin-top: 10px;
+        color:#05154fff;
+        font-size: 14px;
+    }
+}
+ @media only screen and (min-width: 1024px){ 
+    .alli-intro{
+        text-align: justify;
+        margin-top: -20px;
+        color:#05154fff;
+        font-size: 25px;
+    }
+}
+
+
+/* @media only screen and (min-width: 320px){ 
     .alli-intro{
         width: 100%;
         margin: 0 auto;
@@ -63,14 +89,4 @@ footer{
         margin-top: 20px;
         
     }
-}
-
-
-@media only screen and(min-width: 1024px){
-    .alli-intro{
-        text-align: justify;
-        margin-top: 30px;
-        color:#05154fff;
-        font-size: 30px;
-    }
-}
+}*/
