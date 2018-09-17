@@ -2,7 +2,7 @@
     width: 90%;
     height: 300px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 #immigration-homepage{
     /* width: 150px; */
@@ -11,9 +11,14 @@
 h5{
     font-weight: 500;
 }
-#loverenApartment{
-    width: 50%;
-    height: 120px;
+#findYourFlat{
+    width: 300px;
+    height: 500px;
+    margin-top: 15px;
+}
+#podcast{
+    width: 300px;
+    height: 500px;
 }
   
   
