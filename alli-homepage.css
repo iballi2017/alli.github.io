@@ -2,6 +2,11 @@ body{
     /* background-attachment: fixed; */
     background-color: black;
     margin: 0px;
+    padding: none;
+}
+.container{
+    background: red;
+    /* margin: 0px; */
 }
 #alli-header{
     color: #fff;
@@ -42,6 +47,19 @@ body{
     line-height: 30px;
     margin-top: 30px;
 }
+.previous button{
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.next button{
+    width: 40px;
+    height: 40px;
+    margin-left: 1026px;
+    font-weight: bold;
+    margin-top: 70px;
+}
 #works-header{
     color: #fff;
     font-family: 'Ramabhadra', sans-serif;
@@ -63,22 +81,47 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-#immigration-homepage p{
-    /* display:none; */
+#immigration-homepage #homepage{
+    display: none;
     background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#immigration-homepage #homepage p{
     position: absolute;
-    width: 100%;
-    /* padding: 10px; */
+    width: 80%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
     margin-top: 100px;
+    margin-left: 30px;
 }
 #immigration-aboutpage{
     width: 100%;
     height: 400px;
     margin-top: 30px;
     background: url("https://res.cloudinary.com/dhksbreon/image/upload/v1536954633/About_1.png");
-    
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+#immigration-aboutpage #aboutpage{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#immigration-aboutpage #aboutpage p{
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
 }
 #volks{
     width: 100%;
@@ -87,6 +130,23 @@ body{
     background: url("https://res.cloudinary.com/dhksbreon/image/upload/v1536955643/Desktop_7.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+#volks #volkpage{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#volks #volkpage p{
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
 }
 #mobilepage1{
     width: 80%;
@@ -97,6 +157,23 @@ body{
     background-size: 100% 100%;
 
 }
+#mobilepage1 #mobilepage-profile{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#mobilepage1 #mobilepage-profile p{
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+}
 #mobilepage2{
     width: 80%;
     height: 400px;
@@ -105,6 +182,52 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+#mobilepage2 #mobilepage-news{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#mobilepage2 #mobilepage-news p{
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
+#volks2{
+    width: 80%;
+    height: 400px;
+    margin-top: 30px;
+    background: url("https://res.cloudinary.com/dhksbreon/image/upload/v1536955643/Desktop_7.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#volks2 #volkpage2{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#volks2 #volkpage2 p{
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
 #contact-header{
     color: #fff;
     font-family: 'Ramabhadra', sans-serif;
@@ -140,12 +263,22 @@ body{
     margin-right: 40px;
     color:rgb(151, 167, 130);
 }
+.arrow-up{
+    width: 30px;
+    height: 30px;
+}
 footer{
     background: #000;
     color: #fff;
 }
 
 @media only screen and (max-width: 375px){
+    navbar{
+        margin:none;
+    }
+    .logo{
+        width: 60px;
+    }
     .alli-intro{
         width: 100%;
         margin: 0 auto;
@@ -159,5 +292,22 @@ footer{
         width: 95%;
         margin: 0 auto;
         font-size: 18px;
+    }
+    .previous button{
+        width: 40px;
+        height: 40px;
+        font-weight: bold;
+        margin-top: 70px;
+    }
+    .next button{
+        width: 40px;
+        height: 40px;
+        margin-left: 206px;
+        font-weight: bold;
+        margin-top: 70px;
+    }
+    .container{
+        background: red;
+        margin-right: 0px;
     }
 }
