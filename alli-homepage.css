@@ -280,7 +280,11 @@ footer{
 }
 
 @media only screen and (max-width: 375px){
-    navbar{
+    html{
+        overflow-x: hidden;
+    }
+    
+    .navbar{
         margin:none;
     }
     .logo{
