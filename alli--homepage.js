@@ -16,8 +16,8 @@
         function mobilepage2Show(){
             document.getElementById("mobilepage-news").style.display="block";
         }
-        function volkpage2Show(){
-            document.getElementById("volkpage2").style.display="block";
+        function wanderlustShow(){
+            document.getElementById("wanderlust-caption").style.display="block";
         }
 
         // The following JavaScript codes hides captions when mouse moves away from the image
@@ -37,6 +37,6 @@
         function mobilepage2Hide(){
             document.getElementById("mobilepage-news").style.display="none";
         }
-        function volkpage2Hide(){
-            document.getElementById("volkpage2").style.display="none";
+        function wanderlustHide(){
+            document.getElementById("wanderlust-caption").style.display="none";
         }
