@@ -47,6 +47,8 @@ body{
     height: 40px;
     font-weight: bold;
     margin-top: 70px;
+    background-color: #000;
+    border:0.5px solid #444;
 }
 .previous button:hover{
     background-color: #444;
@@ -56,6 +58,8 @@ body{
     height: 40px;
     font-weight: bold;
     margin-top: 70px;
+    background-color: #000;
+    border:0.5px solid #444;
 }
 .next button:hover{
     background-color: #444;
@@ -199,8 +203,6 @@ body{
     margin-top: 100px;
     margin-left: 30px;
 }
-
-
 #wanderlust{
     width: 80%;
     height: 400px;
@@ -280,13 +282,7 @@ footer{
 }
 
 @media only screen and (max-width: 375px){
-    html{
-        overflow-x: hidden;
-    }
-    
-    .navbar{
-        margin:none;
-    }
+  
     .logo{
         width: 60px;
     }
