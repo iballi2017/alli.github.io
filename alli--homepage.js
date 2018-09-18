@@ -1,5 +1,5 @@
 
-// I hope i can be able to write the following codes in a short form
+// I hope in the future, i can be able to write the following codes in a short form...lol
         // The following JavaScript codes reveals captions when mouse is palced on the image
         function homepageShow(){
             document.getElementById("homepage").style.display="block";
