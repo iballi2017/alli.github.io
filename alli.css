@@ -153,8 +153,8 @@ body{
     margin-left: 30px;
 }
 #mobilepage1{
-    width: 80%;
-    height: 400px;
+    width: 70%;
+    height: 410px;
     margin-top: 30px;
     background: url("https://res.cloudinary.com/dhksbreon/image/upload/v1537204468/Capture2.png");
     background-repeat: no-repeat;
@@ -179,8 +179,8 @@ body{
     margin-left: 30px;
 }
 #mobilepage2{
-    width: 80%;
-    height: 400px;
+    width: 70%;
+    height: 410px;
     margin-top: 30px;
     background: url("https://res.cloudinary.com/dhksbreon/image/upload/v1537204510/moblepage2.png");
     background-repeat: no-repeat;
@@ -204,7 +204,7 @@ body{
     margin-left: 30px;
 }
 #wanderlust{
-    width: 80%;
+    width: 100%;
     height: 400px;
     margin-top: 30px;
     background: url("https://res.cloudinary.com/dhksbreon/image/upload/v1536953889/wanderlust.jpg");
