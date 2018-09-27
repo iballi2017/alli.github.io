@@ -313,7 +313,7 @@ footer .mobile-footer-content{
     }
 
 }
-@media only screen and (min-width: 375px){
+@media only screen and (min-width: 425px){
     #close-button{
         position: absolute;
         margin-left: 322px;
