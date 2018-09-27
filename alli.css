@@ -277,12 +277,15 @@ footer .mobile-footer-content{
 .social-media{
     display: none;
     margin-top: 30px;
+    margin-right: 14px;
+}
+.social-media-icons img{
+    margin-top: 10px;
+    display: absolute;
 }
 .social-media-icons a{
     margin-right: 14px;
-}
-.social-media{
-    margin-right: 14px;
+    margin-top: 20px;
 }
 .footer-copyright{
     text-align: center;
