@@ -121,7 +121,11 @@ section{
     height: 300px;
     margin: 0 auto;
     /* margin-top: 30px; */
+<<<<<<< HEAD
     background: url("about.jpg");
+=======
+    background: url("https://res.cloudinary.com/dhksbreon/image/upload/v1538068719/IMG-20180804-WA00113.jpg");
+>>>>>>> 6b48c7083966fef7774a111e2a3ee4e698110bc5
     background-repeat: no-repeat;
     background-size: cover;
 }
