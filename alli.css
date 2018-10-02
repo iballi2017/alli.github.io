@@ -26,6 +26,7 @@ nav{
     height: 20px;
     float: right;
     margin-top: 15px;
+    /* position: fixed; */
 }
 #close-button{
     display: none;

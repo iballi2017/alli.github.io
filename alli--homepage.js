@@ -23,7 +23,7 @@
         // The following JavaScript codes hides captions when mouse moves away from the image
 
         function homepageHide(){
-            document.getElementById("homepage").style.display="none";
+            document.getElementById("plant").style.display="none";
         }
         function aboutpageHide(){
             document.getElementById("aboutpage").style.display="none";
