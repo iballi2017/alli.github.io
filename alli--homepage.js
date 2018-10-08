@@ -19,6 +19,9 @@
         function wanderlustShow(){
             document.getElementById("wanderlust-caption").style.display="block";
         }
+        function porfolioShow(){
+            document.getElementById("portfolioInfo").style.display="block";
+        }
 
         // The following JavaScript codes hides captions when mouse moves away from the image
 
@@ -39,4 +42,7 @@
         }
         function wanderlustHide(){
             document.getElementById("wanderlust-caption").style.display="none";
+        }
+        function porfolioHide(){
+            document.getElementById("portfolioInfo").style.display="none";
         }
