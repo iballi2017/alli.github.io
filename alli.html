@@ -13,11 +13,18 @@
         x=1;
         function openMenu(){
             if (x===1){
+                document.getElementById("close-button").style.display="block"; x=0;
                 document.getElementById("navbar").style.display="block"; x=0;
                 document.getElementById("heading").style.height="500px"; x=0;
-            }else if(x===0){
+                document.getElementById("menu-button").style.display="none"; x=0;
+            }
+        }
+        function closeMenu(){
+            if (x===0){
+                document.getElementById("close-button").style.display="none"; x=1;
                 document.getElementById("navbar").style.display="none"; x=1;
                 document.getElementById("heading").style.height="350px"; x=1;
+                document.getElementById("menu-button").style.display="block"; x=1;
             }
         }
     </script>
@@ -37,7 +44,7 @@
         <nav>
                 <img src="IbAlli-logo.png" class="logo">
             <img src="menu1.png" alt="menu button" id="menu-button" onclick="openMenu()">
-            <img src="close-icon.png" alt="close button" id="close-button">
+            <img src="close-icon.png" alt="close button" id="close-button" onclick="closeMenu()">
                 <ul id="navbar">
                     <li><a href="#heading">Home</a></li>
                     <li><a href="#about">About</a></li>
