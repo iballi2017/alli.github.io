@@ -175,7 +175,7 @@ section{
     height: 320px;
     margin: 0 auto;
     /* margin-top: 30px; */
-    background: url("mobilepage-crop-image2.png");
+    background: url("https://res.cloudinary.com/dhksbreon/image/upload/v1539085380/mobilepage-crop-image2.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -259,8 +259,8 @@ section{
     height: 300px;
     margin: 0 auto;
     /* margin-top: 30px; */
-    background: url("https://res.cloudinary.com/dhksbreon/image/upload/v1539035601/portfolioimage.png");
-   /* background: url("portfolioimage.png"); */
+    /* background: url("https://res.cloudinary.com/dhksbreon/image/upload/v1539035601/portfolioimage.png"); */
+    background: url("portfolioimage.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
