@@ -175,7 +175,7 @@ section{
     height: 320px;
     margin: 0 auto;
     /* margin-top: 30px; */
-    background-image: url("https://res.cloudinary.com/dhksbreon/image/upload/v1539085380/mobilepage-crop-image2.png");
+    background: url("mobilepage-crop-image2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
