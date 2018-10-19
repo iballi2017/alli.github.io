@@ -19,6 +19,9 @@
         function wanderlustShow(){
             document.getElementById("wanderlust-caption").style.display="block";
         }
+        function bottomupShow(){
+            document.getElementById("bottomupInfo").style.display="block";
+        }
         function porfolioShow(){
             document.getElementById("portfolioInfo").style.display="block";
         }
@@ -42,6 +45,9 @@
         }
         function wanderlustHide(){
             document.getElementById("wanderlust-caption").style.display="none";
+        }
+        function bottomupHide(){
+            document.getElementById("bottomupInfo").style.display="none";
         }
         function porfolioHide(){
             document.getElementById("portfolioInfo").style.display="none";

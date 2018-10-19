@@ -254,6 +254,33 @@ section{
     margin-left: 30px;
 }
 
+#bottomup{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    /* background: url("https://res.cloudinary.com/dhksbreon/image/upload/v1539035601/portfolioimage.png"); */
+    background: url("bottomupimage.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#bottomup #bottomupInfo{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#bottomup #bottomupInfo p{
+    position: absolute;
+    width: 33%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+}
 
 #portfolio{
     width: 90%;
@@ -322,7 +349,7 @@ footer .mobile-footer-content{
 }
 
 @media only screen and (min-width: 375px){
-    #plantCare, #immigration-aboutpage, #volks{
+    #plantCare, #immigration-aboutpage, #volks, #bottomup{
         width: 90%;
         height: 370px;
     }
@@ -523,6 +550,17 @@ footer .mobile-footer-content{
     #wanderlust #wanderlust-caption p{
         font-size: 35px;
     }
+    #bottomup{
+        width: 33%;
+        height: 250px;
+        margin: 0 auto;
+        /* margin-top: 30px; */
+        background-size: 100% 100%;
+        float: left;
+    }
+    #bottomup #bottomupInfo p{
+        font-size: 35px;
+    }
     #portfolio{
         width: 33%;
         height: 250px;
@@ -652,6 +690,14 @@ footer .mobile-footer-content{
         float: left;
     }
     #wanderlust{
+        width: 33%;
+        height: 380px;
+        margin: 0 auto;
+        /* margin-top: 30px; */
+        background-size: 100% 100%;
+        float: left;
+    }
+    #bottomup{
         width: 33%;
         height: 380px;
         margin: 0 auto;
